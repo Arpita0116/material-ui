@@ -1,0 +1,33 @@
+The Blood Bank Project manages blood donation, storage, and distribution by blood group. It involves Donors, Organizations, and Hospitals.
+Donor Role:
+Donors register, provide blood group info, schedule donations, and view history.
+Organization Role:
+Organizations manage real-time blood inventory, donor and hospital profiles, and generate reports for efficiency.  
+Hospital Role:
+Hospitals request specific blood types for patients.
+--------=========================================---------------------------------------------------------------=======================================
+MuiButton:-->
+//there is three varient of button :_ contained,text,outlined that
+
+//if you want make text button either you have to give varient text or without any class but note point is if you want make it link  means anchore tage you have to pass href than button become anchor tag
+//if you want to make button disable you have to pass disabled
+
+//if you want to remove elevation(remove shadow) than you have to use  disableElevation
+
+//if you want to fill color in button bydefault you are getting six color , fllow this link
+// https://mui.com/material-ui/customization/palette/#default-colors
+
+//button with icon :- for that one you have to install material icon
+// goto -> component -> icon in document   follow this link
+// https://mui.com/material-ui/icons/
+
+//icon button- means without any text you have to make icon as button for that one  <IconButton> is one component and helthy pratice is always give aria-label
+
+
+//if you want to handle the onlick for that one you have to Give onclick 
+
+// ----------------------------ButtonGroup-------------------------------------------
+// -if you want to make buttonGroup  use <ButtonGroup/> component inside use button dont give indivisual varient direct pass in parent
+// for button group you can set orientation ="vertical" and you can set varient , disableEvalation
+
+//and follow api document for ButtonGroup and Button
