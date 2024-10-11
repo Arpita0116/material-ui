@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 function TextFilelds() {
-    return (
-        <div>TextFilelds</div>
-    )
+  return (
+    <div>
+      <h1>
+        hello <textarea name="" id=""></textarea>
+      </h1>
+    </div>
+  );
 }
 
-export default TextFilelds
+export default TextFilelds;
