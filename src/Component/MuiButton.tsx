@@ -46,8 +46,15 @@ function MuiButton() {
 
             {/* {Buttons with icons and label} */}
             <Stack direction="row" spacing={2} sx={{ mt: 4, ml: 3 }}>
-                <Button></Button>
+                <Button variant='contained' color='error' startIcon={<DeleteForeverIcon />} >Delete</Button>
+                <Button variant='contained' color="success" endIcon={<SendIcon />}>Send</Button>
             </Stack>
+
+
+
+
+
+
 
         </>
     )
